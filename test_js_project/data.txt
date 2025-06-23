@@ -1,0 +1,13 @@
+sportName = "Soccer"
+ data = {
+    FTScore: {
+    Home:number,
+    Away:number
+    },
+    FirstCorner: {
+    Home:boolean,
+    Away:boolean
+    },
+    ResolutionType: 1|2,
+    Server: "Home"|"Away"
+  }
